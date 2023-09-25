@@ -9,7 +9,6 @@ public class hw24 {
         try(reader) {
             String result = reader.readLine();
             if(result == null || result.equals("") || result.trim().equals(""))  throw new RuntimeException("Пустую строку вводить нельзя");
-            //if(result.equals(""))
             System.out.println(result);
         } catch (IOException e) {
             throw new RuntimeException(e);
