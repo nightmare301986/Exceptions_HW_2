@@ -1,3 +1,7 @@
+//Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку. 
+//Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
+//
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
